@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<head>
-<title>B+</title>
-<h1>Donors Should Upload Thier Details/People who require a donor should just contact a suitable one from below.</h1>
-
-
-</head>
-</html>
-
-
-
-
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
 
@@ -21,20 +9,20 @@
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyDJoJILLwYkybqo1FnT6kFVi_DVnRLOGiY",
-    authDomain: "b-plus-9283d.firebaseapp.com",
-    databaseURL: "https://b-plus-9283d.firebaseio.com",
-    projectId: "b-plus-9283d",
-    storageBucket: "b-plus-9283d.appspot.com",
-    messagingSenderId: "766815172884",
-    appId: "1:766815172884:web:d6183672bfcf0c52f3aa01"
+    apiKey: "AIzaSyCCwRF-Wq8Q12OHH37U6pc1N5gzpfWp6lc",
+    authDomain: "daniel-chats-5ffda.firebaseapp.com",
+    databaseURL: "https://daniel-chats-5ffda.firebaseio.com",
+    projectId: "daniel-chats-5ffda",
+    storageBucket: "daniel-chats-5ffda.appspot.com",
+    messagingSenderId: "297466251424",
+    appId: "1:297466251424:web:f39a4ed62ee5daa202e1c5"
   };
+  
 
-
-  // Initialize Firebase
+// Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-  var myName = prompt("Enter Your Full Name");
+  var myName = prompt("Enter Your Name");
 
    
    function sendMessage() {
@@ -95,7 +83,7 @@
 
 <form onSubmit ="return sendMessage();">
 
-<input id = "message" placeholder="Location,Age,Ph.Number" autocomplete="off">
+<input id = "message" placeholder="Type In Your Message" autocomplete="off">
 <input type="submit">
 
 </form>
